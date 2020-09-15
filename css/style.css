@@ -1,0 +1,17 @@
+.menu ul{
+    display: flex;
+    background: blue;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 22px;
+}
+.menu ul li a{
+    text-decoration: none;
+    
+}
+
+.arriba img{
+    height: 500px;
+    align-items: center;
+}
