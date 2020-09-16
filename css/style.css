@@ -101,6 +101,8 @@ padding-left: 50px;
     background: rgb(197, 72, 72);
     display: flex;
    justify-content: center;
+   margin-left: 50px;
+   margin-right: 80px;
    
 }
 .parrafo1{
@@ -112,15 +114,101 @@ padding-left: 50px;
     color: white;
     border-radius: 35px;
 }
-    .caja{
-        border:1px solid blue;
+   
+.foot1{
+    background: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 300px;
+    
+}
+.foot1 ul li{
+    list-style: none;
+    margin-left: 22px;
+    
+}
+
+
+.foot1 ul li a{
+    text-decoration: none;
+    color:rgb(144, 142, 248);
+         
+}
+.letra{
+    color: black;
+ text-decoration: none;
+}
+.foot2{
+    background: #fff;
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 300px;
+}
+.foot2 ul li{
+    list-style: none;
+    margin-left: 22px;
+    
+}
+.foot2 ul li a{
+    text-decoration: none;
+    color:rgb(144, 142, 248);
+         
+}
+
+.foot3{
+    background: #fff;
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 300px;
+
+}
+.foot3 ul li{
+    list-style: none;
+    margin-left: 22px;
+}
+
+.foot3 ul li a{
+    text-decoration: none;
+    color:rgb(144, 142, 248);
+        
+}
+
+.letra2{
+    color:rgb(144, 142, 248);
+}
+.foot2 h3{
+color: black;
+}
+.todofoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.logos{
+    float: right;
+    margin-right: 80px;
+    padding-right: 200px;
+    height: 100px;
+}
+
+.caja{
+        border:1px solid rgb(58, 58, 94);;
         font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+    margin-right: 80px;
+    background-color: white;
+   
      }
      .header{
          display: flex;
          justify-content: space-between;
          align-items: center;
          padding: 16px;
+        
      }
      .perfil{
          display: flex;
@@ -130,4 +218,5 @@ padding-left: 50px;
          height: 70px;
          border-radius: 35px;
          margin-right: 10px;
+
      }
