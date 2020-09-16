@@ -24,18 +24,64 @@
          
 }
 
-.arriba img{
+.imagen1 img{
     height: 500px;
     width: 1200px;
-    margin-left: 80px;
+    margin-left: 50px;
   margin-right: 50px;
+      }
    
+ .arriba{
+          background: #fff;
+          text-align: center;
+          margin-left: 50px;
+          margin-right: 80px;
+          padding-left: 300px;
+          padding-right: 300px;
+  }
 
+.texto2 {
+    background: rgb(201, 220, 223);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 80px;
+    padding-left: 300px;
+          padding-right: 300px;
 
-    }
+}
+.caja_fotos{
+    background: rgb(201, 220, 223);
+    margin-left: 50px;
+    margin-right: 80px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
     .caja_fotos img{
-       height: 100pt;
+        height: 100pt;
+       margin-left:100px;
+       margin-right: 50px;
+      justify-content: center;
+      
     }
+.textofotos{
+    display: grid;
+   grid-template-columns: 400px 400px 400px;
+   text-align: center;
+   margin-left:50px ;
+}
+.alinear1{
+    margin-left:100px ;
+}
+.alinear2{
+padding-right: 250px;   
+padding-left: 180px;
+}
+.alinear3{
+    margin-left: 10px;
+}
+
+
     .caja{
         border:1px solid blue;
         font-family: Arial, Helvetica, sans-serif;
