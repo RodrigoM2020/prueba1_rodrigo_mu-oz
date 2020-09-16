@@ -2,25 +2,36 @@
     font-size: 18px;
     font-style: normal;
 }
-
+.principal{
+    background:rgb(87, 87, 129);
+}
 
 .menu ul{
     display: flex;
-      
-}
+    float: right;
+   }
+
 .menu ul li{
     list-style: none;
     margin-left: 22px;
+    
 }
+
+
 .menu ul li a{
     text-decoration: none;
-    color: gray;
-        
+    color:#fff;
+         
 }
 
 .arriba img{
     height: 500px;
-    width: 500px;
+    width: 1200px;
+    margin-left: 80px;
+  margin-right: 50px;
+   
+
+
     }
     .caja_fotos img{
        height: 100pt;
