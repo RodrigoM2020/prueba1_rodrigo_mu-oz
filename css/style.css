@@ -1,3 +1,9 @@
+:root{
+    font-size: 18px;
+    font-style: normal;
+}
+
+
 .menu ul{
     display: flex;
       
@@ -19,3 +25,22 @@
     .caja_fotos img{
        height: 100pt;
     }
+    .caja{
+        border:1px solid blue;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .header{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 16px;
+     }
+     .perfil{
+         display: flex;
+         align-items: center;
+     }
+     .perfil img{
+         height: 70px;
+         border-radius: 35px;
+         margin-right: 10px;
+     }
